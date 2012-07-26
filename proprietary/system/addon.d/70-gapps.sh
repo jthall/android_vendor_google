@@ -18,14 +18,15 @@ app/GoogleLoginService.apk
 app/GooglePartnerSetup.apk
 app/GoogleServicesFramework.apk
 app/GoogleTTS.apk
+app/LatinImeDictionaryPack.apk
 app/MediaUploader.apk
-app/Music2.apk
 app/NetworkLocation.apk
 app/OneTimeInitializer.apk
 app/Phonesky.apk
+app/QuickSearchBox.apk
 app/SetupWizard.apk
 app/Talk.apk
-app/Velvet.apk
+app/Talkback.apk
 app/VoiceSearchStub.apk
 app/YouTube.apk
 etc/permissions/com.google.android.maps.xml
@@ -47,6 +48,7 @@ lib/libvideochat_jni.so
 lib/libvideochat_stabilize.so
 lib/libvoicesearch.so
 lib/libvorbisencoder.so
+lib/libpatts_engine_jni_api.so
 tts/lang_pico/de-DE_gl0_sg.bin
 tts/lang_pico/de-DE_ta.bin
 tts/lang_pico/es-ES_ta.bin
