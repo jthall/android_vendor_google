@@ -7,7 +7,10 @@
 list_files() {
 cat <<EOF
 app/ChromeBookmarksSyncAdapter.apk
+app/BrowserProviderProxy.apk
+app/PartnerBookmarksProvider.apk
 app/GenieWidget.apk
+app/Gmail2.apk
 app/GmsCore.apk
 app/GoogleBackupTransport.apk
 app/GoogleCalendarSyncAdapter.apk
@@ -24,31 +27,32 @@ app/NetworkLocation.apk
 app/OneTimeInitializer.apk
 app/Phonesky.apk
 app/QuickSearchBox.apk
-app/SetupWizard.apk
+app/SetupWizard.apk app/Provision.apk
 app/Talk.apk
 app/Talkback.apk
 app/VoiceSearchStub.apk
-app/YouTube.apk
 etc/permissions/com.google.android.maps.xml
 etc/permissions/com.google.android.media.effects.xml
 etc/permissions/com.google.widevine.software.drm.xml
 etc/permissions/features.xml
+etc/preferred-apps/google.xml
 etc/g.prop
 framework/com.google.android.maps.jar
 framework/com.google.android.media.effects.jar
 framework/com.google.widevine.software.drm.jar
 lib/libfilterpack_facedetect.so
-lib/libflint_engine_jni_api.so
 lib/libfrsdk.so
 lib/libgcomm_jni.so
 lib/libgoogle_recognizer_jni.so
+lib/libgtalk_jni.so
+lib/libgtalk_stabilize.so
+lib/liblightcycle.so
 lib/libpicowrapper.so
 lib/libspeexwrapper.so
-lib/libvideochat_jni.so
-lib/libvideochat_stabilize.so
 lib/libvoicesearch.so
 lib/libvorbisencoder.so
 lib/libpatts_engine_jni_api.so
+lib/libjni_latinime.so
 tts/lang_pico/de-DE_gl0_sg.bin
 tts/lang_pico/de-DE_ta.bin
 tts/lang_pico/es-ES_ta.bin

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remove-project name="CyanogenMod/android_packages_apps_Provision"/>
-<remove-project name="CyanogenMod/android_packages_apps_QuickSearchBox"/>
+<remove-project name="platform/android_packages_apps_Provision"/>
+<remove-project name="platform/android_packages_apps_QuickSearchBox"/>
   <remote name="privategh"
            fetch="ssh://git@github.com" />
   <project path="vendor/google" name="jthall/android_vendor_google" remote="privategh" />

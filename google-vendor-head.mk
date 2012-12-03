@@ -12,5 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# place this line in vendor/<vendorname>/config/<vendorname>.mk to envoke these apps on build e.g. andronadus
+#$(call inherit-product-if-exists, vendor/google/google-vendor.mk)
+
 # Google Applications
 PRODUCT_COPY_FILES += \
