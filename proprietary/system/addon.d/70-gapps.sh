@@ -7,15 +7,12 @@
 list_files() {
 cat <<EOF
 app/ChromeBookmarksSyncAdapter.apk
-app/BrowserProviderProxy.apk
-app/PartnerBookmarksProvider.apk
+app/ConfigUpdater.apk
 app/GenieWidget.apk
-app/Gmail2.apk
 app/GmsCore.apk
 app/GoogleBackupTransport.apk
 app/GoogleCalendarSyncAdapter.apk
 app/GoogleContactsSyncAdapter.apk
-app/GoogleEars.apk
 app/GoogleFeedback.apk
 app/GoogleLoginService.apk
 app/GooglePartnerSetup.apk
@@ -47,9 +44,7 @@ lib/libgoogle_recognizer_jni.so
 lib/libgtalk_jni.so
 lib/libgtalk_stabilize.so
 lib/liblightcycle.so
-lib/libpicowrapper.so
 lib/libspeexwrapper.so
-lib/libvoicesearch.so
 lib/libvorbisencoder.so
 lib/libpatts_engine_jni_api.so
 lib/libjni_latinime.so
