@@ -29,7 +29,7 @@ fi
 rm -rf /tmp/face
 
 if (grep -qi "mako" /proc/cpuinfo ); then
-  echo "Installing Mako-specific Google bits"
+  echo "Installing Mako-specific google bits"
   rm -f /system/app/Gallery2.apk
   cp -a /tmp/photosphere/mako/* /system/
   cp -a /tmp/photosphere/lib/* /system/lib/
@@ -37,7 +37,7 @@ if (grep -qi "mako" /proc/cpuinfo ); then
 fi
 
 if (grep -qi "tuna" /proc/cpuinfo ); then
-  echo "Installing Tuna-specific Google bits"
+  echo "Installing Tuna-specific google bits"
   rm -f /system/app/Gallery2.apk
   cp -a /tmp/photosphere/tuna/* /system/
   cp -a /tmp/photosphere/lib/* /system/lib/
@@ -45,7 +45,7 @@ if (grep -qi "tuna" /proc/cpuinfo ); then
 fi
 
 if (grep -qi "manta" /proc/cpuinfo ); then
-  echo "Installing Manta-specific Google bits"
+  echo "Installing Manta-specific google bits"
   rm -f /system/app/Gallery2.apk
   cp -a /tmp/photosphere/manta/* /system/
   cp -a /tmp/photosphere/lib/* /system/lib/
